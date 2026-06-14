@@ -26,9 +26,9 @@ export const glob = {
     'RVD', 'PUR', 'LVA' will not change; feel free to use them as magic constant strings throughout
     your code */
   modeDesc: {
-    RVD: 'State winner',
-    PUR: 'Partisan margin',
-    LVA: 'Lean + vote total',
+    RVD: 'Red vs Blue',
+    PUR: 'Partisan Lean',
+    LVA: 'Lean vs Vote Total',
   },
   currentMode: null, // colormapping mode currently displayed
   currentYear: null, // election year currently displayed
